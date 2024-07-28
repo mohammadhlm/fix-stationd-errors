@@ -47,11 +47,15 @@ repository_path="$HOME/fix-stationd-errors"
 update_flag="$repository_path/update_flag.txt"
 
 unique_urls=(
+https://junction-testnet-rpc.nodesync.top/
+https://airchains-rpc.sbgid.com/
+https://airchains-testnet-rpc.crouton.digital/
 https://testnet.rpc.airchains.silentvalidator.com/
 https://junction-rpc.validatorvn.com/
 https://rpc1.airchains.t.cosmostaking.com/
 https://airchains-testnet-rpc.crouton.digital/
 https://airchains-rpc.tws.im/
+
 )
 
 function select_random_url {
@@ -111,7 +115,7 @@ function check_for_updates {
   if [ "$local_commit" != "$remote_commit" ]; then
     echo -e "\e[31m+\e[0m \e[32m+\e[0m \e[31m+\e[0m \e[32m+\e[0m \e[31m+\e[0m"
     echo -e "\e[32mUpdate found. Downloading and updating...\e[0m"
-    wget -q https://raw.githubusercontent.com/Onixs50/fix-stationd-errors/main/fix.sh -O fix.sh > /dev/null 2>&1
+    wget -q https://raw.githubusercontent.com/mohammadhlm/fix-stationd-errors/main/fix.sh -O fix.sh > /dev/null 2>&1
     chmod +x fix.sh > /dev/null 2>&1
     echo -e "\e[32mUpdate completed successfully!\e[0m"
     touch "$update_flag"
