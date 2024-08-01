@@ -47,15 +47,18 @@ repository_path="$HOME/fix-stationd-errors"
 update_flag="$repository_path/update_flag.txt"
 
 unique_urls=(
+https://airchains-testnet-rpc.crouton.digital/
+https://airchains-rpc.sbgid.com/
 https://junction-testnet-rpc.nodesync.top/
-https://airchains-rpc.sbgid.com/
-https://airchains-testnet-rpc.crouton.digital/
-https://testnet.rpc.airchains.silentvalidator.com/
-https://junction-rpc.validatorvn.com/
-https://rpc1.airchains.t.cosmostaking.com/
-https://airchains-testnet-rpc.crouton.digital/
+https://airchains.rpc.t.stavr.tech/
+https://airchains-testnet-rpc.corenode.info/
+https://airchains-testnet-rpc.spacestake.tech/
+https://airchains-rpc.chainad.org/
+https://rpc.airchains.stakeup.tech/
+https://airchains-testnet-rpc.spacestake.tech/
+https://airchains-testnet-rpc.stakerhouse.com/
 https://airchains-rpc.tws.im/
-https://airchains-rpc.sbgid.com/
+https://junction-testnet-rpc.synergynodes.com/
 https://airchains-testnet-rpc.nodesrun.xyz/
 https://t-airchains.rpc.utsa.tech/
 https://airchains-testnet.rpc.stakevillage.net/
@@ -66,7 +69,7 @@ https://rpc1.airchains.t.cosmostaking.com/
 https://rpc.nodejumper.io/airchainstestnet
 https://airchains-testnet-rpc.staketab.org
 https://junction-rpc.kzvn.xyz/
-https://airchains-rpc-testnet.zulnaaa.com/
+https://airchains-testnet-rpc.zulnaaa.com/
 https://airchains-testnet-rpc.suntzu.dev/
 https://airchains-testnet-rpc.nodesphere.net/
 https://junction-rpc.validatorvn.com/
