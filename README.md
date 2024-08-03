@@ -163,13 +163,15 @@ done
 ## By installing this script, every time new errors are created or new and suitable RPCs are found, everything is automatically updated for you.
 
 ```bash
+cd
 sudo rm -f /tmp/fix.sh.lock
 rm fix.sh
 rm -rf fix-stationd-errors
 git clone https://github.com/mohammadhlm/fix-stationd-errors.git
+screen -S fix
 ```
 ```bash
-screen -S fix
+sudo systemctl daemon-reload
 cd fix-stationd-errors
 chmod +x fix.sh
 ./fix.sh
