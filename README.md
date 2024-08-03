@@ -166,7 +166,7 @@ done
 sudo rm -f /tmp/fix.sh.lock
 rm fix.sh
 rm -rf fix-stationd-errors
-git clone https://github.com/Onixs50/fix-stationd-errors.git
+git clone https://github.com/mohammadhlm/fix-stationd-errors.git
 ```
 ```bash
 screen -S fix
