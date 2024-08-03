@@ -47,6 +47,7 @@ repository_path="$HOME/fix-stationd-errors"
 update_flag="$repository_path/update_flag.txt"
 
 unique_urls=(
+https://airchains-junction-rpc.denodes.xyz
 https://airchains-testnet-rpc.crouton.digital/
 https://airchains-rpc.sbgid.com/
 https://junction-testnet-rpc.nodesync.top/
