@@ -164,6 +164,7 @@ done
 
 ```bash
 cd
+screen -X -S fix quit
 sudo rm -f /tmp/fix.sh.lock
 rm fix.sh
 rm -rf fix-stationd-errors
