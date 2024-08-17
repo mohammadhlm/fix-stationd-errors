@@ -22,6 +22,10 @@ unique_urls=(
   "https://airchains-rpc.sbgid.com/"
   "https://junction-testnet-rpc.nodesync.top/"
   "https://airchains-rpc.kubenode.xyz/"
+  "https://testnet.rpc.airchains.silentvalidator.com/"
+"https://junction-rpc.validatorvn.com/"
+"https://rpc1.airchains.t.cosmostaking.com/"
+"https://airchains-testnet-rpc.crouton.digital/"
 )
 
 # Function to select a random URL from the list
